@@ -1,0 +1,35 @@
+Period[] Periods = new Period[8];
+PImage img;  // Declare a variable of type PImage
+
+void setup() {
+  size(1200,675);
+  background(20);
+  // Make a new instance of a PImage by loading an image file
+  img = loadImage("worldMapBlank(pd1).png");
+  Periods[0] = new Period(150, 360, 400, 105, 300, 100, 600, 525, "Period 3");
+  Periods[1] = new Period (650, 230, 400, 105, 300, 100, 600, 525, "Period 6");
+  Periods[2] = new Period(650, 360, 400, 105, 300, 100, 600, 525, "Period 7");
+  Periods[3] = new Period (650, 490, 400, 105, 300, 100, 600, 525, "Period 8");
+  Periods[4] = new Period (150, 100, 400, 105, 300, 100, 600, 525, "Period 1");
+  Periods[5] = new Period (150, 230, 400, 105, 300, 100, 600, 525, "Period 2");
+  Periods[6] = new Period (150, 490, 400, 105, 300, 100, 600, 525, "Period 4");
+  Periods[7] = new Period (650, 100, 400, 105, 300, 100, 600, 525, "Period 5");
+}
+
+void draw() {
+  background(255);
+  // Draw the image to the screen at coordinate (0,0)
+  tint(255,60);
+  image(img,0,0,1200,675);
+  textSize(40);
+  fill(122,69,126);
+  textAlign(CENTER);
+  text("American History",600,40);
+  textSize(12);
+  text("by: Isabella Grow \n Period B4 ",600,60);
+  
+  for (int i=0; i<Periods.length; i++) {
+    Periods[i].display();
+    Periods[i].hover();
+  }
+}
