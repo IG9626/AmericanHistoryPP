@@ -19,16 +19,16 @@ Total hours spent so far: 13 hours and 20 min
 - 3/12/19
 - 1 hr. 20 minutes 
 - working on the UI
-- 3/18/19 \n
+- 3/18/19 
 - 1 hr. 20 minutes 
 - working on the UI
-3/19/19 /n
+- 3/19/19 /n
 - 2 hr. 30 minutes
 - working on the code
-3/20/19
+- 3/20/19
 - 1 hour
 - working on the code
-3/21/19
+- 3/21/19
 - 3 hours
 - working on code
 - putting code on github
