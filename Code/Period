@@ -1,0 +1,60 @@
+class Period {
+  //Member variables also curly Q need to suround entire code
+  int x, y, w, h, v, xx, yy, ww, hh; //position, Dimension and value
+  boolean hov, num; //hover
+  String title;
+  //Constructor
+  Period(int x, int y, int w, int h, int xx, int yy, int ww, int hh, String title) {
+    this.x = x;
+    this.y = y;
+    this.w = w;
+    this.h = h;
+    this.xx = xx;
+    this.yy = yy;
+    this.ww = ww;
+    this.hh = hh;
+    this.title = title;
+  }
+  //Dislay method
+  void display() {
+    //fill(230);
+    /*THIS WILL DETECT WETHER THE MOUSE IS HOVERING OVER A BOTTON-
+     -AND LIGHTEN/DARKEN THE BACKGROUND OF THE BUTTON:*/
+    if (hov) {
+      noFill();
+      strokeWeight(3);
+      stroke(204,152,209);
+      rect(x, y, w, h);
+    } else {
+      noFill();
+      strokeWeight(3);
+      stroke(122,69,126);
+      rect(x, y, w, h);
+    }
+    //stroke(0);
+    //rect(x+20,y-20,w,h);
+    //fill(230);
+    //TEXT PLACEMENT FOR BUTTONS:
+    fill(122,69,126);
+    textSize(18);
+      textLeading(20);
+      text(title,x+75, y+50);
+      textAlign(CENTER);
+    }
+  //Hover method
+  void hover() {
+    hov = mouseX>x && mouseX<x+w && mouseY>y && mouseY<y+h;
+  }
+  void mousePressed() {
+  for (int i=0; i<Periods.length; i++) {
+      if (Periods[i].hov ) {
+      background(0);
+      image(img,0,0,1200,675);
+      fill(255);
+      strokeWeight(3);
+      stroke(122,69,126);
+      rect(xx, yy, ww, hh);
+    }
+  }
+  }
+}
