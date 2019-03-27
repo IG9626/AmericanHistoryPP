@@ -32,4 +32,8 @@ Total hours spent so far: 13 hours and 20 min
     - 3 hours
     - working on code
     - putting code on github
-
+- 3/27/19:
+    - 1 hour
+    - working on code
+    - writing my plan to get things done
+    - developing questions I have.
