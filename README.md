@@ -46,3 +46,6 @@ Total hours spent so far: 18 hours and 10 min
 - 4/4/19:
     - 1 hour 20 min
     - working on the background american map graphics
+- 4/8/19:
+    - 50 min
+    - working on graphics
