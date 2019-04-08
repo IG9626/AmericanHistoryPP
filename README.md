@@ -3,7 +3,7 @@ This my programing project application
 - this application, allows users to study for the AP american history exam. 
 This application has the ability to have the user interact with the program and go into diffrent periods of time with maps and information on that particular period of time. 
 Hours spent:
-Total hours spent so far: 20 hours and 30 min
+Total hours spent so far: 21 hours and 00 min
 - 3/4/19:
     -  45 minutes
     -  brainstorming 
@@ -50,5 +50,6 @@ Total hours spent so far: 20 hours and 30 min
     - 1 hour 30 min
     - Working on organizing and putting together information to put on application
 - 4/8/19:
-    - 50 min
+    - 2 hours 20 min
     - working on graphics
+    - working on putting together period 1 information
