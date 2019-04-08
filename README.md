@@ -46,6 +46,9 @@ Total hours spent so far: 19 hours and 00 min
 - 4/4/19:
     - 1 hour 20 min
     - working on the background american map graphics
+- 4/7/19:
+    - 1 hour 30 min
+    - Working on organizing and putting together information to put on application
 - 4/8/19:
     - 50 min
     - working on graphics
