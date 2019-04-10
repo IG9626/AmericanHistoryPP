@@ -57,3 +57,7 @@ Total hours spent so far: 23 hours and 00 min
     - 2 hours
     - working on putting together period 1 information
     - made a drawing of where things should go on the map
+- 4/10/19
+    - 1 hour 20 min
+    - updated github
+    - put period one information into code
