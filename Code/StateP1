@@ -1,7 +1,7 @@
 class State {
   //Member variables also curly Q need to suround entire code
   int x, y, w, h, v, xx, yy, ww, hh; //position, Dimension and value
-  boolean hov, State; //hover
+  boolean hov, num; //hover
   String title, info;
   //Constructor
   State(int x, int y, int w, int h, int xx, int yy, int ww, int hh, String title, String info) {
@@ -42,19 +42,31 @@ class State {
   void hover() {
     hov = mouseX>x && mouseX<x+w && mouseY>y && mouseY<y+h;
   }
-  void mousePressed() {
+
+   void mousePressed() {
   for (int i=0; i<States.length; i++) {
       if (States[i].hov ) {
-      background(0);
-      img = loadImage("americanMapPeriod1.jpg");
-      image(img,0,0,1200,675);
-      text(info,xx+75, yy+50);
+      noFill();
+      rect(xx,yy,ww,hh);
+      text(info,600,300);
+      
       textAlign(CENTER);
-      fill(255);
       strokeWeight(3);
-      stroke(122,69,126);
-      rect(xx, yy, ww, hh);
-    }
+      }
   }
+  //void mousePressed() {
+  //for (int i=0; i<States.length; i++) {
+  //    if (States[i].hov ) {
+  //    background(0);
+  //    fill(255);
+  //    img = loadImage("USMapP01.jpg");
+  //    image(img,0,0,1200,675);
+  //    text(info,600,300);
+  //    textAlign(CENTER);
+  //    strokeWeight(3);
+  //    stroke(122,69,126);
+  //   rect(xx, yy, ww, hh);
+  // }
+  //}
 }
 }
