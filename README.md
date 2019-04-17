@@ -64,3 +64,6 @@ Total hours spent so far: 25 hours and 50 min
 - 4/11/19
     - 1 hour 30 min
     - worked on putting together period 2 information. 
+- 4/17/19
+    - 1 hour 
+    - worked on putting together period 3 information
